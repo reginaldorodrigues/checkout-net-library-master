@@ -18,7 +18,7 @@ namespace Checkout
         private static int? _requestTimeout;
         private static bool? _debugMode;
         private const string _liveUrl = "https://api2.checkout.com/v2";
-        private const string _sandboxurl = "https://sandbox.checkout.com/api";
+        private const string _sandboxUrl = "https://sandbox.checkout.com/api";
         //private const string _sandboxUrl = "http://localhost:58775/api";
         public const string ClientUserAgentName = "Checkout-DotNetLibraryClient/v1.0";
         public const string DefaultContentType = "application/json";
